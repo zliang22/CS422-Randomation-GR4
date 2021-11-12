@@ -8,6 +8,10 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
   <title>Moch@</title>
   <style>
+    body{
+      background-color: rgb(217, 223, 223) !important;
+    } 
+
     * {
       margin: 0;
       padding: 0;
@@ -19,13 +23,20 @@
     }
 
     a {
-      color: #333;
+      
+      padding: 16px 16px 16px 16px;
       text-decoration: none;
+      text-align: center;
+      color: #f1f1f1;
+      display: block;
+      
     }
 
     a:hover {
-      color: #3384ff;
+      color: white;
     }
+
+    
 
     .home-page {
       overflow: hidden;
@@ -57,7 +68,7 @@
       width: 200px;
       border: 1px solid #ccc;
       box-shadow: 0px 1px 2px 1px #ccc;
-
+      background-color: #111;
     }
 
     aside ul li {
@@ -67,12 +78,15 @@
       border-bottom: 1px solid #ccc;
     }
 
+    
+
     .content .leftP {
       width: 1300px;
       float: left;
       height: 100%;
       border: 1px solid #ccc;
       margin-left: 10px;
+      background-color: white;
     }
 
     .content .right {
@@ -98,6 +112,7 @@
     .content .left li .rightContent {
       margin-top: 30px;
       margin-left: 20px;
+      
     }
 
     .content .left li .rightContent .overflowEllipsis {
@@ -115,19 +130,19 @@
     }
 
     .content .NameBox{
-      padding: 5px; height: 40px; width: 95%;  font-family:"Arial";  font-size: 20px; margin-top: 25px; margin-left: 25px; 
+      padding: 5px; height: 40px; width: 95%;  font-family:"Arial";  font-size: 20px; margin-top: 25px; margin-left: 25px; border: 2px solid black;
     }
 
     .content .TitleBox{
-      padding: 5px; height: 50px; width: 95%;  font-family:"Arial";  font-size: 32px; margin-top: 25px; margin-left: 25px; 
+      padding: 5px; height: 50px; width: 95%;  font-family:"Arial";  font-size: 32px; margin-top: 25px; margin-left: 25px; border: 2px solid black;
     }
 
     .content .DescriptionBox{
-      padding: 5px; height: 600px; width: 95%;  font-family:"Arial";  font-size: 30px;   margin-top: 25px; margin-left: 25px; 
+      padding: 5px; height: 600px; width: 95%;  font-family:"Arial";  font-size: 30px;   margin-top: 25px; margin-left: 25px; border: 2px solid black;
     }
 
     .content .ImageURL{
-      padding: 5px; height: 40px; width: 95%;  font-family:"Arial";  font-size: 20px;   margin-top: 25px; margin-left: 25px; 
+      padding: 5px; height: 40px; width: 95%;  font-family:"Arial";  font-size: 20px;   margin-top: 25px; margin-left: 25px; border: 2px solid black;
     }
 
     .button .Send{
@@ -160,12 +175,12 @@
     <div class="layui contain">
       <aside>
         <ul>
-          <li>
-            <a href="posts.html">Posts</a>
-          </li>
-          <li>
-            <a href="create-post.html">Create Post</a>
-          </li>
+          
+            <a href="posts.html" style="font-size: 28px;">Posts</a>
+          <br>
+          
+            <a href="create-post.html" style="font-size: 28px;">Create Post</a>
+          <br>
         </ul>
       </aside>
       <div class="content">

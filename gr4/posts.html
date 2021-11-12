@@ -8,6 +8,10 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
   <title>Moch@</title>
   <style>
+    body{
+      background-color: rgb(217, 223, 223) !important;
+    } 
+
     * {
       margin: 0;
       padding: 0;
@@ -23,9 +27,19 @@
       text-decoration: none;
     }
 
-    a:hover {
-      color: #3384ff;
+    .a2{
+      padding: 16px 16px 16px 16px;
       text-decoration: none;
+      text-align: center;
+      color: #f1f1f1;
+      display: block;
+      font-size: 28px;
+    }
+
+    .a2:hover {
+      color: white;
+      text-decoration: white;
+      text-decoration: underline;
     }
 
     .home-page {
@@ -56,7 +70,7 @@
       width: 200px;
       border: 1px solid #ccc;
       box-shadow: 0px 1px 2px 1px #ccc;
-
+      background-color: #111;
     }
 
     aside ul li {
@@ -72,6 +86,7 @@
       height: 100%;
       border: 1px solid #ccc;
       margin-left: 10px;
+      background-color: white;
     }
 
     .content .right {
@@ -138,20 +153,18 @@
             </ul>
         </div>      
     </nav>
-
+  </header>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    </header>
+    
     <div class="layui contain">
       <aside>
         <ul>
-          <li>
-            <a href="posts.html">Posts</a>
-          </li>
-          <li>
-            <a href="create-post.html">Create Post</a>
-          </li>
+            <a href="posts.html" class="a2">Posts</a>
+          <br>
+            <a href="create-post.html" class="a2">Create Post</a>
+          <br>
         </ul>
       </aside>
       <div class="content">
